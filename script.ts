@@ -8,11 +8,14 @@ const sons = {
     'H' : 'ride.wav',
     'J' : 'snare.wav',
     'K' : 'tink.wav',
-    'L' : 'tom.wav'
+    'L' : 'tom.wav',
+    'Z' : 'a.mp3' ,
+    'X' : 'b.wav',
+    'C' : 'c.wav'
     
 }
 
-type indexes  = 'A' | 'S' | 'D' | 'F' | 'G' | 'H' | 'J' | 'K' | 'L' // estamos criando um tipo que varia somente entre
+type indexes  = 'A' | 'S' | 'D' | 'F' | 'G' | 'H' | 'J' | 'K' | 'L' | 'Z' | 'X' | 'C' // estamos criando um tipo que varia somente entre
 // as strings de A até L em maiúsculo
 
 function criarDiv(texto: string) {

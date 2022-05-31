@@ -20,6 +20,10 @@ html{
     font-size: 2rem;
     margin: 10vh auto;
     font-size: 4rem;
+    border: solid black 2px;
+    padding: 1.2rem;
+    border-radius: 2rem;
+    box-shadow:0 2px 3px rgba(0,0,0,0.80), 0 2px 2px rgba(0,0,0,0.65);
 }
 
 main{
